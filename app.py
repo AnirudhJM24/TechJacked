@@ -145,4 +145,4 @@ else:
 
 # Footer
 st.markdown("---")
-st.caption("Data sourced from Nutrislice • Built for Georgia Tech students")
+st.caption("Data sourced from Nutrislice • AnirudhJM24")
