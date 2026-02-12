@@ -513,13 +513,22 @@ class DiningHallOptimizer:
 
     def show_top_items(self, menu_items: List[Dict], top_n: int = 10):
         """Show top N items with best protein-to-calorie ratio."""
-        # Filter items with meaningful protein (min 5g) and valid calories
+        # Filter items with meaningful protein (min 12g) and valid calories
         valid_items = [item for item in menu_items
-                      if item['calories'] > 0 and item['protein'] >= 5]
+                      if item['calories'] > 0 and item['protein'] >= 12]
 
-        # Create a list with efficiency scores (don't modify original items)
-        items_with_efficiency = []
+        # Remove duplicates by name + dining hall
+        seen = set()
+        unique_items = []
         for item in valid_items:
+            key = (item['name'], item['dining_hall'])
+            if key not in seen:
+                seen.add(key)
+                unique_items.append(item)
+
+        # Create a list with efficiency scores
+        items_with_efficiency = []
+        for item in unique_items:
             protein_efficiency = item['protein'] / item['calories']
             items_with_efficiency.append({
                 **item,

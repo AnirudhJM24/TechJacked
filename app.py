@@ -64,13 +64,22 @@ if find_button:
         if not all_items:
             st.error("❌ Could not fetch menu data. Please try again later.")
         else:
-            # Filter items with meaningful protein (min 5g) and valid calories
+            # Filter items with meaningful protein (min 12g) and valid calories
             valid_items = [item for item in all_items
-                          if item['calories'] > 0 and item['protein'] >= 5]
+                          if item['calories'] > 0 and item['protein'] >= 12]
+
+            # Remove duplicates by name + dining hall
+            seen = set()
+            unique_items = []
+            for item in valid_items:
+                key = (item['name'], item['dining_hall'])
+                if key not in seen:
+                    seen.add(key)
+                    unique_items.append(item)
 
             # Create list with efficiency scores
             items_with_efficiency = []
-            for item in valid_items:
+            for item in unique_items:
                 protein_efficiency = item['protein'] / item['calories']
                 items_with_efficiency.append({
                     **item,
