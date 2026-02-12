@@ -82,12 +82,8 @@ class DiningHallOptimizer:
         with open(cache_file, 'w', encoding='utf-8') as f:
             json.dump(cache_data, f, indent=2)
 
-    def fetch_menu(self, dining_hall: str, meal_type: str, date: datetime = None, verbose: bool = True, specific_day: str = None) -> List[Dict]:
-        """Fetch menu items from a dining hall for a specific meal (with caching).
-
-        Args:
-            specific_day: Optional date string (YYYY-MM-DD) to filter for a specific day
-        """
+    def fetch_menu(self, dining_hall: str, meal_type: str, date: datetime = None, verbose: bool = True) -> List[Dict]:
+        """Fetch menu items from a dining hall for a specific meal (with caching)."""
         if date is None:
             date = datetime.now()
 
@@ -97,9 +93,6 @@ class DiningHallOptimizer:
         if cached_data is not None:
             if verbose:
                 print(f"    ✓ Loaded from cache (week of {(date - timedelta(days=date.weekday())).strftime('%Y-%m-%d')})")
-            # Filter by specific day if requested
-            if specific_day:
-                return [item for item in cached_data if item.get('date') == specific_day]
             return cached_data
 
         # Cache miss - fetch from API
@@ -155,10 +148,6 @@ class DiningHallOptimizer:
 
             # Save to cache
             self._save_to_cache(cache_key, menu_items)
-
-            # Filter by specific day if requested
-            if specific_day:
-                return [item for item in menu_items if item.get('date') == specific_day]
             return menu_items
 
         except Exception as e:
@@ -596,20 +585,18 @@ def main():
     meal_choice = input("Select (1 or 2): ").strip()
     meal_type = "lunch" if meal_choice == "1" else "dinner"
 
-    # Get today's date
-    today = datetime.now().strftime('%Y-%m-%d')
-    print(f"\n🔍 Loading today's {meal_type} menu ({today})...")
+    print(f"\n🔍 Loading {meal_type} menus...")
 
-    # Fetch today's menu
+    # Fetch menu
     all_items = []
     for hall_id in selected_halls:
         print(f"  • {optimizer.dining_halls[hall_id]}:")
-        items = optimizer.fetch_menu(hall_id, meal_type, verbose=True, specific_day=today)
+        items = optimizer.fetch_menu(hall_id, meal_type, verbose=True)
         all_items.extend(items)
         print(f"    → {len(items)} items available")
 
     if not all_items:
-        print("\n❌ Could not fetch menu data for today. Please try again later.")
+        print("\n❌ Could not fetch menu data. Please try again later.")
         return
 
     # Show top 10 items by protein efficiency

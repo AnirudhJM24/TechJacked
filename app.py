@@ -4,7 +4,6 @@ Streamlit GUI for Dining Hall Meal Optimizer
 
 import streamlit as st
 from dining_optimizer import DiningHallOptimizer
-from datetime import datetime
 
 # Page config
 st.set_page_config(
@@ -54,22 +53,16 @@ find_button = st.sidebar.button("🔍 Show Top Items", type="primary", use_conta
 
 # Main content area
 if find_button:
-    # Get today's date
-    today = datetime.now().strftime('%Y-%m-%d')
-
-    with st.spinner("Fetching today's menu..."):
-        # Fetch menu data for today
+    with st.spinner("Fetching menu..."):
+        # Fetch menu data
         all_items = []
         for hall_id in selected_halls:
-            items = optimizer.fetch_menu(hall_id, meal_type, verbose=False, specific_day=today)
+            items = optimizer.fetch_menu(hall_id, meal_type, verbose=False)
             all_items.extend(items)
 
         if not all_items:
-            st.error("❌ Could not fetch menu data for today. Please try again later.")
+            st.error("❌ Could not fetch menu data. Please try again later.")
         else:
-            # Display today's date
-            date_obj = datetime.now()
-            st.info(f"📅 Showing results for **{date_obj.strftime('%A, %B %d, %Y')}**")
             # Filter items with meaningful protein (min 12g) and valid calories
             valid_items = [item for item in all_items
                           if item['calories'] > 0 and item['protein'] >= 12]
@@ -145,7 +138,7 @@ else:
 
     1. **Select your dining hall** - Choose West Village, North Ave, or search both
     2. **Choose meal type** - Lunch or Dinner
-    3. **Click "Show Top Items"** - See today's top 10 items by protein efficiency
+    3. **Click "Show Top Items"** - See the top 10 items by protein efficiency
 
     ### What is Protein Efficiency?
 
@@ -159,7 +152,7 @@ else:
     ### Features
 
     - 🚀 **Fast caching** - Menu data cached for the week
-    - 📅 **Today's menu** - Shows current day's offerings
+    - 📅 **Current menu** - Shows this week's offerings
     - 📊 **Complete nutrition** - Full macros for every item
     - 📈 **Smart ranking** - Best protein/calorie ratios first
     """)
