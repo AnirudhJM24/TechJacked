@@ -596,56 +596,24 @@ def main():
     meal_choice = input("Select (1 or 2): ").strip()
     meal_type = "lunch" if meal_choice == "1" else "dinner"
 
-    print(f"\n🔍 Loading {meal_type} menus...")
+    # Get today's date
+    today = datetime.now().strftime('%Y-%m-%d')
+    print(f"\n🔍 Loading today's {meal_type} menu ({today})...")
 
-    # Fetch all menus to get available days
+    # Fetch today's menu
     all_items = []
     for hall_id in selected_halls:
         print(f"  • {optimizer.dining_halls[hall_id]}:")
-        items = optimizer.fetch_menu(hall_id, meal_type, verbose=True)
+        items = optimizer.fetch_menu(hall_id, meal_type, verbose=True, specific_day=today)
         all_items.extend(items)
         print(f"    → {len(items)} items available")
 
     if not all_items:
-        print("\n❌ Could not fetch menu data. Please try again later.")
+        print("\n❌ Could not fetch menu data for today. Please try again later.")
         return
-
-    # Get unique dates from the items
-    available_dates = sorted(set(item['date'] for item in all_items if item.get('date')))
-
-    if not available_dates:
-        print("\n❌ No date information available.")
-        return
-
-    # Let user select a day
-    print(f"\n📅 Available days:")
-    for idx, date_str in enumerate(available_dates, 1):
-        try:
-            date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-            day_name = date_obj.strftime('%A, %B %d')
-            print(f"{idx}. {day_name}")
-        except:
-            print(f"{idx}. {date_str}")
-
-    day_choice = input(f"\nSelect day (1-{len(available_dates)}): ").strip()
-    try:
-        day_idx = int(day_choice) - 1
-        if 0 <= day_idx < len(available_dates):
-            selected_date = available_dates[day_idx]
-        else:
-            print("Invalid selection. Using first day.")
-            selected_date = available_dates[0]
-    except ValueError:
-        print("Invalid input. Using first day.")
-        selected_date = available_dates[0]
-
-    # Filter items for selected day
-    day_items = [item for item in all_items if item.get('date') == selected_date]
-
-    print(f"\n📊 Showing results for {selected_date}")
 
     # Show top 10 items by protein efficiency
-    optimizer.show_top_items(day_items, top_n=10)
+    optimizer.show_top_items(all_items, top_n=10)
 
 
 if __name__ == "__main__":
