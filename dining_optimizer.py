@@ -511,6 +511,33 @@ class DiningHallOptimizer:
         print("=" * 90)
 
 
+    def show_top_items(self, menu_items: List[Dict], top_n: int = 10):
+        """Show top N items with best protein-to-calorie ratio."""
+        # Filter items with meaningful protein and calories
+        valid_items = [item for item in menu_items
+                      if item['calories'] > 0 and item['protein'] > 0]
+
+        # Calculate protein efficiency
+        for item in valid_items:
+            item['protein_efficiency'] = item['protein'] / item['calories']
+
+        # Sort by protein efficiency
+        valid_items.sort(key=lambda x: -x['protein_efficiency'])
+
+        # Display top N
+        print(f"\n✅ Top {top_n} items by protein efficiency:\n")
+        print("=" * 90)
+
+        for idx, item in enumerate(valid_items[:top_n], 1):
+            print(f"\n{idx}. {item['name']}")
+            print(f"   [{item['dining_hall']}] {item['serving']}")
+            print(f"   Protein: {item['protein']:.1f}g | Calories: {item['calories']:.0f}")
+            print(f"   Efficiency: {item['protein_efficiency']:.3f}g/cal")
+            print(f"   Fat: {item['fat']:.1f}g | Carbs: {item['carbs']:.1f}g")
+
+        print("\n" + "=" * 90)
+
+
 def main():
     print("🍽️  Dining Hall Meal Optimizer")
     print("=" * 80)
@@ -526,26 +553,16 @@ def main():
 
     if hall_choice == "1":
         selected_halls = ["west-village"]
-        dining_hall_filter = "West Village"
     elif hall_choice == "2":
         selected_halls = ["north-ave-dining-hall"]
-        dining_hall_filter = "North Ave Dining Hall"
     else:
         selected_halls = list(optimizer.dining_halls.keys())
-        dining_hall_filter = None
 
     print("\nMeal Type:")
     print("1. Lunch")
     print("2. Dinner")
     meal_choice = input("Select (1 or 2): ").strip()
     meal_type = "lunch" if meal_choice == "1" else "dinner"
-
-    try:
-        protein_goal = float(input("\nProtein goal (grams): "))
-        calorie_limit = float(input("Calorie limit: "))
-    except ValueError:
-        print("Invalid input. Please enter numbers.")
-        return
 
     print(f"\n🔍 Loading {meal_type} menus...")
 
@@ -561,16 +578,8 @@ def main():
         print("\n❌ Could not fetch menu data. Please try again later.")
         return
 
-    # Find combinations
-    if dining_hall_filter:
-        print(f"\n🎯 Finding meals from {dining_hall_filter} with ≥{protein_goal}g protein under {calorie_limit} calories...")
-    else:
-        print(f"\n🎯 Finding meals with ≥{protein_goal}g protein under {calorie_limit} calories...")
-
-    combinations = optimizer.find_combinations(all_items, protein_goal, calorie_limit, dining_hall_filter)
-
-    # Display results
-    optimizer.display_results(combinations)
+    # Show top 10 items by protein efficiency
+    optimizer.show_top_items(all_items, top_n=10)
 
 
 if __name__ == "__main__":

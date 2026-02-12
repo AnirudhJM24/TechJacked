@@ -1,0 +1,3115 @@
+{
+  "timestamp": "2026-02-12T00:55:11.530493",
+  "menu_items": [
+    {
+      "name": "Steamed Broccolini",
+      "calories": 13.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 2.0,
+      "sodium": 108.0,
+      "serving": "0.66 piece",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Corn on The Cob",
+      "calories": 72.0,
+      "protein": 2.0,
+      "fat": 0.6,
+      "carbs": 17.0,
+      "sodium": 3.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Shrimp Scampi",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Broccoli Cheese Stuffed Chicken",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "4 oz each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Angel Hair Pasta",
+      "calories": 188.0,
+      "protein": 7.0,
+      "fat": 1.7,
+      "carbs": 36.0,
+      "sodium": 495.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Patty",
+      "calories": 1.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 581.0,
+      "serving": "1 single patty",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Bun",
+      "calories": 166.0,
+      "protein": 6.0,
+      "fat": 2.3,
+      "carbs": 30.0,
+      "sodium": 294.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Chicken Breast",
+      "calories": 118.0,
+      "protein": 23.0,
+      "fat": 2.4,
+      "carbs": 0,
+      "sodium": 299.0,
+      "serving": "1 breast",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Crinkle Cut Fries",
+      "calories": 193.0,
+      "protein": 2.0,
+      "fat": 12.0,
+      "carbs": 20.0,
+      "sodium": 2576.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chorizo Links",
+      "calories": 151.0,
+      "protein": 8.0,
+      "fat": 13.0,
+      "carbs": 2.0,
+      "sodium": 352.0,
+      "serving": "1 link",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sliced White Hoagie Roll",
+      "calories": 198.0,
+      "protein": 7.0,
+      "fat": 2.8,
+      "carbs": 36.0,
+      "sodium": 350.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Pimento Cheese Sandwich",
+      "calories": 141.0,
+      "protein": 5.0,
+      "fat": 11.0,
+      "carbs": 26.0,
+      "sodium": 251.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Veggie Burger",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Black Beans",
+      "calories": 92.0,
+      "protein": 4.0,
+      "fat": 2.7,
+      "carbs": 14.0,
+      "sodium": 635.0,
+      "serving": "0.33 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Broccolini",
+      "calories": 13.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 2.0,
+      "sodium": 108.0,
+      "serving": "0.66 piece",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Purple Rice and Quinoa",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Ropa Vieja",
+      "calories": 165.0,
+      "protein": 18.0,
+      "fat": 6.0,
+      "carbs": 10.0,
+      "sodium": 704.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mango Habanero Wings",
+      "calories": 318.0,
+      "protein": 16.0,
+      "fat": 19.0,
+      "carbs": 20.0,
+      "sodium": 2654.0,
+      "serving": "2 wing",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Fresh Autumn Vegetables",
+      "calories": 65.0,
+      "protein": 1.0,
+      "fat": 2.4,
+      "carbs": 11.0,
+      "sodium": 79.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cheese Pizza",
+      "calories": 310.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 41.0,
+      "sodium": 815.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "calories": 348.0,
+      "protein": 15.0,
+      "fat": 14.0,
+      "carbs": 43.0,
+      "sodium": 929.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Tomato Pesto Pizza",
+      "calories": 289.0,
+      "protein": 10.0,
+      "fat": 9.0,
+      "carbs": 40.0,
+      "sodium": 743.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mushroom Tomato Cheese Bread",
+      "calories": 105.0,
+      "protein": 7.0,
+      "fat": 8.0,
+      "carbs": 4.0,
+      "sodium": 237.0,
+      "serving": "3.6 oz piece",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Broccoli Cheese Soup",
+      "calories": 270.0,
+      "protein": 4.0,
+      "fat": 20.0,
+      "carbs": 18.0,
+      "sodium": 1440.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken Enchilada Soup",
+      "calories": 225.0,
+      "protein": 17.0,
+      "fat": 8.0,
+      "carbs": 23.0,
+      "sodium": 909.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Glazed Carrots",
+      "calories": 62.0,
+      "protein": 0,
+      "fat": 9.0,
+      "carbs": 16.0,
+      "sodium": 151.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Red Potatoes",
+      "calories": 42.0,
+      "protein": 1.0,
+      "fat": 0.1,
+      "carbs": 9.0,
+      "sodium": 172.0,
+      "serving": "0.5 cup portion",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Lemon Ginger Tofu",
+      "calories": 90.0,
+      "protein": 10.0,
+      "fat": 4.6,
+      "carbs": 4.0,
+      "sodium": 203.0,
+      "serving": "2.5 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Beans and Carrots",
+      "calories": 55.0,
+      "protein": 2.0,
+      "fat": 0.1,
+      "carbs": 11.0,
+      "sodium": 135.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Scrambled Egg",
+      "calories": 119.0,
+      "protein": 8.0,
+      "fat": 9.0,
+      "carbs": 1.0,
+      "sodium": 446.0,
+      "serving": "0.5 cup portion",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Oatmeal",
+      "calories": 8.0,
+      "protein": 0,
+      "fat": 0.2,
+      "carbs": 2.0,
+      "sodium": 14436.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pork Bacon",
+      "calories": 18.0,
+      "protein": 1.0,
+      "fat": 1.4,
+      "carbs": 0,
+      "sodium": 65.0,
+      "serving": "2 strip",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Marinara Sauce",
+      "calories": 0,
+      "protein": 2.0,
+      "fat": 0.9,
+      "carbs": 10.0,
+      "sodium": 441.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Spaghetti Noodles",
+      "calories": 232.0,
+      "protein": 8.0,
+      "fat": 3.1,
+      "carbs": 42.0,
+      "sodium": 608.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Patty",
+      "calories": 1.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 581.0,
+      "serving": "1 single patty",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Black Bean Burger",
+      "calories": 186.0,
+      "protein": 20.0,
+      "fat": 9.0,
+      "carbs": 8.0,
+      "sodium": 519.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Bun",
+      "calories": 166.0,
+      "protein": 6.0,
+      "fat": 2.3,
+      "carbs": 30.0,
+      "sodium": 294.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Chicken Breast",
+      "calories": 118.0,
+      "protein": 23.0,
+      "fat": 2.4,
+      "carbs": 0,
+      "sodium": 299.0,
+      "serving": "1 breast",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken Nuggets",
+      "calories": 53.0,
+      "protein": 4.0,
+      "fat": 2.5,
+      "carbs": 3.0,
+      "sodium": 127.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Shoestring Fries",
+      "calories": 198.0,
+      "protein": 2.0,
+      "fat": 12.0,
+      "carbs": 21.0,
+      "sodium": 2583.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Buffalo Chicken Sandwich",
+      "calories": 566.0,
+      "protein": 23.0,
+      "fat": 32.0,
+      "carbs": 45.0,
+      "sodium": 2178.0,
+      "serving": "1 sandwich",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cheese Pizza",
+      "calories": 310.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 41.0,
+      "sodium": 815.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "calories": 348.0,
+      "protein": 15.0,
+      "fat": 14.0,
+      "carbs": 43.0,
+      "sodium": 929.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Garden Vegetable Flatbread",
+      "calories": 95.0,
+      "protein": 5.0,
+      "fat": 7.0,
+      "carbs": 2.0,
+      "sodium": 170.0,
+      "serving": "1 piece",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken Fajita Pizza",
+      "calories": 143.0,
+      "protein": 6.0,
+      "fat": 3.9,
+      "carbs": 21.0,
+      "sodium": 405.0,
+      "serving": "1 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "calories": 119.0,
+      "protein": 8.0,
+      "fat": 8.0,
+      "carbs": 4.0,
+      "sodium": 496.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Meatballs",
+      "calories": 160.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 3.0,
+      "sodium": 611.0,
+      "serving": "3 meatball",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Alfredo Sauce",
+      "calories": 197.0,
+      "protein": 2.0,
+      "fat": 17.0,
+      "carbs": 4.0,
+      "sodium": 699.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Arrabbiata Sauce",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0.2,
+      "carbs": 2.0,
+      "sodium": 108.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Oregano",
+      "calories": 75.0,
+      "protein": 3.0,
+      "fat": 1.2,
+      "carbs": 20.0,
+      "sodium": 7.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "calories": 90.0,
+      "protein": 3.0,
+      "fat": 4.9,
+      "carbs": 16.0,
+      "sodium": 9.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Fresh Roasted Vegetables",
+      "calories": 67.0,
+      "protein": 3.0,
+      "fat": 1.1,
+      "carbs": 14.0,
+      "sodium": 23.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Dinner Roll",
+      "calories": 118.0,
+      "protein": 3.0,
+      "fat": 3.3,
+      "carbs": 20.0,
+      "sodium": 210.0,
+      "serving": "1 roll",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cole Slaw",
+      "calories": 101.0,
+      "protein": 0,
+      "fat": 9.0,
+      "carbs": 4.0,
+      "sodium": 128.0,
+      "serving": "2 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chipotle Sweet Potato Soup",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 gallons",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken and Wild Rice Soup",
+      "calories": 169.0,
+      "protein": 8.0,
+      "fat": 8.0,
+      "carbs": 16.0,
+      "sodium": 698.0,
+      "serving": "6 oz ladle",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Braised Mushroom Beef Shoulder",
+      "calories": 1329.0,
+      "protein": 104.0,
+      "fat": 95.0,
+      "carbs": 9.0,
+      "sodium": 1018.0,
+      "serving": "0.25 lbs",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Dijon Cream Sauce",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "2 oz ladle",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Vegetables",
+      "calories": 55.0,
+      "protein": 2.0,
+      "fat": 0.1,
+      "carbs": 11.0,
+      "sodium": 135.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Turkey Steak",
+      "calories": 234.0,
+      "protein": 13.0,
+      "fat": 15.0,
+      "carbs": 10.0,
+      "sodium": 901.0,
+      "serving": "3.5 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Potato Pancake",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 80.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Fresh Roasted Vegetables",
+      "calories": 67.0,
+      "protein": 3.0,
+      "fat": 1.1,
+      "carbs": 14.0,
+      "sodium": 23.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pulled Pork",
+      "calories": 205.0,
+      "protein": 16.0,
+      "fat": 9.0,
+      "carbs": 16.0,
+      "sodium": 899.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Quinoa",
+      "calories": 85.0,
+      "protein": 3.0,
+      "fat": 1.4,
+      "carbs": 15.0,
+      "sodium": 73.0,
+      "serving": "1 #12 scoop 0.33333333 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Marinara Sauce",
+      "calories": 0,
+      "protein": 2.0,
+      "fat": 0.9,
+      "carbs": 10.0,
+      "sodium": 441.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Herb Roasted Flank Steak",
+      "calories": 48.0,
+      "protein": 2.0,
+      "fat": 1.4,
+      "carbs": 9.0,
+      "sodium": 1762.0,
+      "serving": "3 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Gluten Free Penne",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Green Beans and Mushrooms",
+      "calories": 75.0,
+      "protein": 2.0,
+      "fat": 6.0,
+      "carbs": 6.0,
+      "sodium": 245.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sauteed Garden Vegetables",
+      "calories": 15.0,
+      "protein": 0,
+      "fat": 1.2,
+      "carbs": 1.0,
+      "sodium": 558.0,
+      "serving": "0.5 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Huli Huli Plant Chicken",
+      "calories": 332.0,
+      "protein": 29.0,
+      "fat": 15.0,
+      "carbs": 26.0,
+      "sodium": 1616.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Plantains",
+      "calories": 18.0,
+      "protein": 0,
+      "fat": 0.2,
+      "carbs": 4.0,
+      "sodium": 3.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Basmati Rice",
+      "calories": 189.0,
+      "protein": 4.0,
+      "fat": 0.6,
+      "carbs": 40.0,
+      "sodium": 141.0,
+      "serving": "0.66 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mongolian Beef",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Soy Sauce",
+      "calories": 30.0,
+      "protein": 4.0,
+      "fat": 0,
+      "carbs": 2.0,
+      "sodium": 1445.0,
+      "serving": "1 fl oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Chili Sriracha Sauce",
+      "calories": 14.0,
+      "protein": 0,
+      "fat": 0.1,
+      "carbs": 3.0,
+      "sodium": 319.0,
+      "serving": "1 Tbsp",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Vegetable Stir Fry",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "4 oz spoodle",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Vegetable Dumpling",
+      "calories": 184.0,
+      "protein": 1.0,
+      "fat": 14.0,
+      "carbs": 13.0,
+      "sodium": 254.0,
+      "serving": "2 dumpling",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Egg Fried Rice",
+      "calories": 253.0,
+      "protein": 7.0,
+      "fat": 9.0,
+      "carbs": 36.0,
+      "sodium": 423.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sweet Chili Sauce",
+      "calories": 24.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 6.0,
+      "sodium": 65.0,
+      "serving": "1 Tbsp",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Bean Tofu",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "0.25 lbs",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Corn",
+      "calories": 66.0,
+      "protein": 2.0,
+      "fat": 0.6,
+      "carbs": 16.0,
+      "sodium": 21.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Meatloaf",
+      "calories": 514.0,
+      "protein": 30.0,
+      "fat": 17.0,
+      "carbs": 66.0,
+      "sodium": 1430.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Squash and Cauliflower",
+      "calories": 67.0,
+      "protein": 1.0,
+      "fat": 4.7,
+      "carbs": 6.0,
+      "sodium": 56.0,
+      "serving": "2 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken with White BBQ Sauce",
+      "calories": 662.0,
+      "protein": 36.0,
+      "fat": 55.0,
+      "carbs": 3.0,
+      "sodium": 828.0,
+      "serving": "1 thigh",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Garlic Mashed Potatoes",
+      "calories": 115.0,
+      "protein": 4.0,
+      "fat": 4.6,
+      "carbs": 24.0,
+      "sodium": 634.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mushroom Gravy",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "2 oz ladle",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Patty",
+      "calories": 1.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 581.0,
+      "serving": "1 single patty",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Bratwurst",
+      "calories": 339.0,
+      "protein": 19.0,
+      "fat": 28.0,
+      "carbs": 1.0,
+      "sodium": 849.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Bun",
+      "calories": 166.0,
+      "protein": 6.0,
+      "fat": 2.3,
+      "carbs": 30.0,
+      "sodium": 294.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Chicken Breast",
+      "calories": 118.0,
+      "protein": 23.0,
+      "fat": 2.4,
+      "carbs": 0,
+      "sodium": 299.0,
+      "serving": "1 breast",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Crinkle Cut Fries",
+      "calories": 193.0,
+      "protein": 2.0,
+      "fat": 12.0,
+      "carbs": 20.0,
+      "sodium": 2576.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sliced White Hoagie Roll",
+      "calories": 198.0,
+      "protein": 7.0,
+      "fat": 2.8,
+      "carbs": 36.0,
+      "sodium": 350.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Sauerkraut",
+      "calories": 34.0,
+      "protein": 2.0,
+      "fat": 0.3,
+      "carbs": 8.0,
+      "sodium": 1183.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Veggie Burger",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sweet Potato Fries",
+      "calories": 229.0,
+      "protein": 2.0,
+      "fat": 16.0,
+      "carbs": 30.0,
+      "sodium": 2446.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Sliced Chicken",
+      "calories": 35.0,
+      "protein": 5.0,
+      "fat": 1.1,
+      "carbs": 1.0,
+      "sodium": 174.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Plant Meat Daring Chicken Fajitas",
+      "calories": 165.0,
+      "protein": 12.0,
+      "fat": 9.0,
+      "carbs": 10.0,
+      "sodium": 493.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Blanco Jalapeno Cheese Sauce",
+      "calories": 6.0,
+      "protein": 0,
+      "fat": 0.4,
+      "carbs": 0,
+      "sodium": 26.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Taco Beef",
+      "calories": 139.0,
+      "protein": 14.0,
+      "fat": 9.0,
+      "carbs": 0,
+      "sodium": 59.0,
+      "serving": "1 #16 scoop 0.25",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Guacamole",
+      "calories": 44.0,
+      "protein": 1.0,
+      "fat": 4.0,
+      "carbs": 2.0,
+      "sodium": 98.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sour Cream",
+      "calories": 56.0,
+      "protein": 1.0,
+      "fat": 5.0,
+      "carbs": 1.0,
+      "sodium": 9.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Jalapeno Peppers",
+      "calories": 5.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 1.0,
+      "sodium": 359.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cheddar Jack Cheese",
+      "calories": 111.0,
+      "protein": 6.0,
+      "fat": 9.0,
+      "carbs": 1.0,
+      "sodium": 172.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Salted Tortilla Chips",
+      "calories": 199.0,
+      "protein": 3.0,
+      "fat": 7.0,
+      "carbs": 29.0,
+      "sodium": 159.0,
+      "serving": "1 ind",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Shredded Lettuce",
+      "calories": 4.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 1.0,
+      "sodium": 3.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Tomato Salsa",
+      "calories": 10.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 2.0,
+      "sodium": 71.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Carrots",
+      "calories": 66.0,
+      "protein": 1.0,
+      "fat": 4.2,
+      "carbs": 7.0,
+      "sodium": 170.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken Gravy",
+      "calories": 6.0,
+      "protein": 0,
+      "fat": 0.2,
+      "carbs": 1.0,
+      "sodium": 131.0,
+      "serving": "2 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Ham Steak",
+      "calories": 5.0,
+      "protein": 1.0,
+      "fat": 0.2,
+      "carbs": 0,
+      "sodium": 42.0,
+      "serving": "4 oz slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Red Potatoes",
+      "calories": 42.0,
+      "protein": 1.0,
+      "fat": 0.1,
+      "carbs": 9.0,
+      "sodium": 172.0,
+      "serving": "0.5 cup portion",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Turkey Steak",
+      "calories": 234.0,
+      "protein": 13.0,
+      "fat": 15.0,
+      "carbs": 10.0,
+      "sodium": 901.0,
+      "serving": "3.5 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Beets",
+      "calories": 54.0,
+      "protein": 1.0,
+      "fat": 2.3,
+      "carbs": 8.0,
+      "sodium": 81.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cheese Pizza",
+      "calories": 310.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 41.0,
+      "sodium": 815.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "calories": 348.0,
+      "protein": 15.0,
+      "fat": 14.0,
+      "carbs": 43.0,
+      "sodium": 929.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "4 Cheese Alfredo Pizza",
+      "calories": 169.0,
+      "protein": 7.0,
+      "fat": 7.0,
+      "carbs": 19.0,
+      "sodium": 413.0,
+      "serving": "1 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mushroom Thin Crust Pizza",
+      "calories": 59.0,
+      "protein": 4.0,
+      "fat": 4.6,
+      "carbs": 2.0,
+      "sodium": 115.0,
+      "serving": "1 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Broccoli Salad",
+      "calories": 99.0,
+      "protein": 2.0,
+      "fat": 7.0,
+      "carbs": 9.0,
+      "sodium": 220.0,
+      "serving": "3 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Beef Barley Soup",
+      "calories": 145.0,
+      "protein": 8.0,
+      "fat": 2.4,
+      "carbs": 23.0,
+      "sodium": 540.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Tomato Roasted Red Pepper Bisque",
+      "calories": 172.0,
+      "protein": 5.0,
+      "fat": 11.0,
+      "carbs": 15.0,
+      "sodium": 590.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Veggie Nuggets",
+      "calories": 192.0,
+      "protein": 18.0,
+      "fat": 11.0,
+      "carbs": 7.0,
+      "sodium": 329.0,
+      "serving": "5 nugget",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Buffalo Plant Based Nuggets",
+      "calories": 1163.0,
+      "protein": 97.0,
+      "fat": 68.0,
+      "carbs": 39.0,
+      "sodium": 3856.0,
+      "serving": "0.25 lbs",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Korean BBQ Plant Based Nuggets",
+      "calories": 1205.0,
+      "protein": 101.0,
+      "fat": 58.0,
+      "carbs": 72.0,
+      "sodium": 3304.0,
+      "serving": "0.25 lbs",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Fried Green Tomatoes",
+      "calories": 229.0,
+      "protein": 4.0,
+      "fat": 18.0,
+      "carbs": 15.0,
+      "sodium": 245.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Marinara Sauce",
+      "calories": 0,
+      "protein": 2.0,
+      "fat": 0.9,
+      "carbs": 10.0,
+      "sodium": 441.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Spaghetti Noodles",
+      "calories": 232.0,
+      "protein": 8.0,
+      "fat": 3.1,
+      "carbs": 42.0,
+      "sodium": 608.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Beef Burgundy",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "4 oz ladle",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Glazed Carrots",
+      "calories": 62.0,
+      "protein": 0,
+      "fat": 9.0,
+      "carbs": 16.0,
+      "sodium": 151.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Golden Rice",
+      "calories": 107.0,
+      "protein": 2.0,
+      "fat": 0.6,
+      "carbs": 23.0,
+      "sodium": 413.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Broccoli, Carrots, Beans and Peppers",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 105.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pesto Salmon",
+      "calories": 454.0,
+      "protein": 15.0,
+      "fat": 31.0,
+      "carbs": 28.0,
+      "sodium": 723.0,
+      "serving": "1 filet",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Patty",
+      "calories": 1.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 581.0,
+      "serving": "1 single patty",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Black Bean Burger",
+      "calories": 186.0,
+      "protein": 20.0,
+      "fat": 9.0,
+      "carbs": 8.0,
+      "sodium": 519.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Bun",
+      "calories": 166.0,
+      "protein": 6.0,
+      "fat": 2.3,
+      "carbs": 30.0,
+      "sodium": 294.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Dog Buns",
+      "calories": 132.0,
+      "protein": 5.0,
+      "fat": 1.9,
+      "carbs": 24.0,
+      "sodium": 233.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Chicken Breast",
+      "calories": 118.0,
+      "protein": 23.0,
+      "fat": 2.4,
+      "carbs": 0,
+      "sodium": 299.0,
+      "serving": "1 breast",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Dog",
+      "calories": 232.0,
+      "protein": 7.0,
+      "fat": 19.0,
+      "carbs": 0,
+      "sodium": 744.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Shoestring Fries",
+      "calories": 198.0,
+      "protein": 2.0,
+      "fat": 12.0,
+      "carbs": 21.0,
+      "sodium": 2583.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Corn Dogs",
+      "calories": 320.0,
+      "protein": 7.0,
+      "fat": 17.0,
+      "carbs": 33.0,
+      "sodium": 554.0,
+      "serving": "1 corn dog",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sauteed Onions and Green Peppers",
+      "calories": 27.0,
+      "protein": 0,
+      "fat": 1.8,
+      "carbs": 3.0,
+      "sodium": 1.0,
+      "serving": "2 Tbsp",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mushroom Gravy",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "2 oz ladle",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Potato and Cheddar Pierogies",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "3 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Kielbasa",
+      "calories": 240.0,
+      "protein": 10.0,
+      "fat": 21.0,
+      "carbs": 6.0,
+      "sodium": 875.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Mixed Vegetables",
+      "calories": 6.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 1.0,
+      "sodium": 50.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Sauerkraut",
+      "calories": 34.0,
+      "protein": 2.0,
+      "fat": 0.3,
+      "carbs": 8.0,
+      "sodium": 1183.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sour Cream",
+      "calories": 56.0,
+      "protein": 1.0,
+      "fat": 5.0,
+      "carbs": 1.0,
+      "sodium": 9.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Ginger Chili Chicken Thigh",
+      "calories": 236.0,
+      "protein": 27.0,
+      "fat": 13.0,
+      "carbs": 2.0,
+      "sodium": 116.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Sliced Mushrooms",
+      "calories": 76.0,
+      "protein": 2.0,
+      "fat": 6.0,
+      "carbs": 5.0,
+      "sodium": 118.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pad Thai Noodles",
+      "calories": 149.0,
+      "protein": 2.0,
+      "fat": 0.3,
+      "carbs": 33.0,
+      "sodium": 347.0,
+      "serving": "1 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pho Vegetable Broth",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Smoked Pork Belly",
+      "calories": 587.0,
+      "protein": 10.0,
+      "fat": 60.0,
+      "carbs": 0,
+      "sodium": 35.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Corn",
+      "calories": 66.0,
+      "protein": 2.0,
+      "fat": 0.6,
+      "carbs": 16.0,
+      "sodium": 21.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cheese Pizza",
+      "calories": 310.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 41.0,
+      "sodium": 815.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "calories": 348.0,
+      "protein": 15.0,
+      "fat": 14.0,
+      "carbs": 43.0,
+      "sodium": 929.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Feta Olive and Pepperoncini Pizza",
+      "calories": 52.0,
+      "protein": 2.0,
+      "fat": 2.9,
+      "carbs": 5.0,
+      "sodium": 160.0,
+      "serving": "1 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Bacon Cheeseburger Flatbread",
+      "calories": 49.0,
+      "protein": 3.0,
+      "fat": 3.9,
+      "carbs": 3.0,
+      "sodium": 275.0,
+      "serving": "1 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Lentil Stuffed Peppers",
+      "calories": 103.0,
+      "protein": 4.0,
+      "fat": 3.9,
+      "carbs": 15.0,
+      "sodium": 214.0,
+      "serving": "0.5 pepper",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pesto Roasted Potatoes with Peppers",
+      "calories": 134.0,
+      "protein": 2.0,
+      "fat": 6.0,
+      "carbs": 19.0,
+      "sodium": 203.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Carrots",
+      "calories": 28.0,
+      "protein": 0,
+      "fat": 1.2,
+      "carbs": 4.0,
+      "sodium": 61.0,
+      "serving": "2 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Peas and Pearl Onions",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 105.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "calories": 119.0,
+      "protein": 8.0,
+      "fat": 8.0,
+      "carbs": 4.0,
+      "sodium": 496.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Seasoned Peas",
+      "calories": 62.0,
+      "protein": 4.0,
+      "fat": 0.2,
+      "carbs": 11.0,
+      "sodium": 156.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Marinara Sauce",
+      "calories": 0,
+      "protein": 2.0,
+      "fat": 0.9,
+      "carbs": 10.0,
+      "sodium": 441.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sliced Italian Sausage",
+      "calories": 434.0,
+      "protein": 20.0,
+      "fat": 37.0,
+      "carbs": 2.0,
+      "sodium": 835.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Oregano",
+      "calories": 75.0,
+      "protein": 3.0,
+      "fat": 1.2,
+      "carbs": 20.0,
+      "sodium": 7.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "calories": 90.0,
+      "protein": 3.0,
+      "fat": 4.9,
+      "carbs": 16.0,
+      "sodium": 9.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Whole Wheat Penne Pasta",
+      "calories": 35.0,
+      "protein": 1.0,
+      "fat": 0.4,
+      "carbs": 7.0,
+      "sodium": 158.0,
+      "serving": "1 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Alfredo Sauce",
+      "calories": 197.0,
+      "protein": 2.0,
+      "fat": 17.0,
+      "carbs": 4.0,
+      "sodium": 699.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Spaghetti Noodles",
+      "calories": 232.0,
+      "protein": 8.0,
+      "fat": 3.1,
+      "carbs": 42.0,
+      "sodium": 608.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Italian Wedding Soup",
+      "calories": 180.0,
+      "protein": 11.0,
+      "fat": 4.5,
+      "carbs": 25.0,
+      "sodium": 1188.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Spring Salad",
+      "calories": 215.0,
+      "protein": 4.0,
+      "fat": 13.0,
+      "carbs": 21.0,
+      "sodium": 434.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Moroccan Lentil Soup",
+      "calories": 156.0,
+      "protein": 8.0,
+      "fat": 1.9,
+      "carbs": 27.0,
+      "sodium": 787.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Squash and Pepper Medley",
+      "calories": 65.0,
+      "protein": 1.0,
+      "fat": 5.0,
+      "carbs": 4.0,
+      "sodium": 2.0,
+      "serving": "1 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Beans, Carrots, Cauliflower",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 105.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Lemon Pepper Chicken",
+      "calories": 255.0,
+      "protein": 25.0,
+      "fat": 16.0,
+      "carbs": 0,
+      "sodium": 173.0,
+      "serving": "1 thigh",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mushroom Couscous",
+      "calories": 89.0,
+      "protein": 3.0,
+      "fat": 2.5,
+      "carbs": 14.0,
+      "sodium": 386.0,
+      "serving": "0.25 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Baked Mahi Mahi",
+      "calories": 78.0,
+      "protein": 17.0,
+      "fat": 0.7,
+      "carbs": 0,
+      "sodium": 393.0,
+      "serving": "1 fillet",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Lemon Cream Dill Sauce",
+      "calories": 1263.0,
+      "protein": 11.0,
+      "fat": 73.0,
+      "carbs": 136.0,
+      "sodium": 15708.0,
+      "serving": "1 gallons",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Patty",
+      "calories": 1.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 581.0,
+      "serving": "1 single patty",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Bun",
+      "calories": 166.0,
+      "protein": 6.0,
+      "fat": 2.3,
+      "carbs": 30.0,
+      "sodium": 294.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Chicken Breast",
+      "calories": 118.0,
+      "protein": 23.0,
+      "fat": 2.4,
+      "carbs": 0,
+      "sodium": 299.0,
+      "serving": "1 breast",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Crinkle Cut Fries",
+      "calories": 193.0,
+      "protein": 2.0,
+      "fat": 12.0,
+      "carbs": 20.0,
+      "sodium": 2576.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Veggie Burger",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Spicy Fried Chicken Filet",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "BBQ Chicken Drumstick",
+      "calories": 164.0,
+      "protein": 18.0,
+      "fat": 9.0,
+      "carbs": 2.0,
+      "sodium": 259.0,
+      "serving": "1 drumstick",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed MIxed Vegetables",
+      "calories": 6.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 1.0,
+      "sodium": 50.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pork Tenderloin",
+      "calories": 111.0,
+      "protein": 20.0,
+      "fat": 2.7,
+      "carbs": 0,
+      "sodium": 780.0,
+      "serving": "3 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sauteed Swiss Chard",
+      "calories": 66.0,
+      "protein": 1.0,
+      "fat": 6.0,
+      "carbs": 2.0,
+      "sodium": 511.0,
+      "serving": "2.6 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sweet Potato Puff",
+      "calories": 186.0,
+      "protein": 2.0,
+      "fat": 9.0,
+      "carbs": 36.0,
+      "sodium": 447.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Quinoa Red Cabbage Carrot Kale",
+      "calories": 85.0,
+      "protein": 3.0,
+      "fat": 1.3,
+      "carbs": 16.0,
+      "sodium": 20.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cheese Pizza",
+      "calories": 310.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 41.0,
+      "sodium": 815.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "calories": 348.0,
+      "protein": 15.0,
+      "fat": 14.0,
+      "carbs": 43.0,
+      "sodium": 929.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Supreme Pizza",
+      "calories": 370.0,
+      "protein": 15.0,
+      "fat": 16.0,
+      "carbs": 42.0,
+      "sodium": 972.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Smores Pizza",
+      "calories": 174.0,
+      "protein": 4.0,
+      "fat": 3.8,
+      "carbs": 32.0,
+      "sodium": 336.0,
+      "serving": "1 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mashed Cauliflower",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 #16 scoop",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sauteed Squash and Zucchini",
+      "calories": 52.0,
+      "protein": 1.0,
+      "fat": 4.3,
+      "carbs": 3.0,
+      "sodium": 304.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Broccolini, Peppers, Onions, Mushrooms",
+      "calories": 77.0,
+      "protein": 1.0,
+      "fat": 6.0,
+      "carbs": 5.0,
+      "sodium": 109.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Veggie Nuggets",
+      "calories": 192.0,
+      "protein": 18.0,
+      "fat": 11.0,
+      "carbs": 7.0,
+      "sodium": 329.0,
+      "serving": "5 nugget",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cucumber Tomato Herb Salad",
+      "calories": 59.0,
+      "protein": 1.0,
+      "fat": 4.7,
+      "carbs": 4.0,
+      "sodium": 102.0,
+      "serving": "1 salad",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Garden Vegetable Soup",
+      "calories": 95.0,
+      "protein": 4.0,
+      "fat": 1.9,
+      "carbs": 15.0,
+      "sodium": 594.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken Dumpling Soup",
+      "calories": 60.0,
+      "protein": 3.0,
+      "fat": 2.5,
+      "carbs": 6.0,
+      "sodium": 226.0,
+      "serving": "6 oz ladle",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Chutney Powder",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 tsp",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken Madras",
+      "calories": 148.0,
+      "protein": 19.0,
+      "fat": 6.0,
+      "carbs": 3.0,
+      "sodium": 169.0,
+      "serving": "4.04 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Vegetable Pakora",
+      "calories": 80.0,
+      "protein": 2.0,
+      "fat": 2.3,
+      "carbs": 13.0,
+      "sodium": 173.0,
+      "serving": "2 pieces",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "calories": 90.0,
+      "protein": 3.0,
+      "fat": 4.9,
+      "carbs": 16.0,
+      "sodium": 9.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Rajmah Masala",
+      "calories": 67.0,
+      "protein": 4.0,
+      "fat": 0.3,
+      "carbs": 12.0,
+      "sodium": 96.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Coconut Ginger Basmati Rice",
+      "calories": 290.0,
+      "protein": 6.0,
+      "fat": 11.0,
+      "carbs": 42.0,
+      "sodium": 10.0,
+      "serving": "5 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Whole Wheat Roti",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Vegetable Coconut Curry",
+      "calories": 74.0,
+      "protein": 1.0,
+      "fat": 6.0,
+      "carbs": 6.0,
+      "sodium": 341.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "calories": 119.0,
+      "protein": 8.0,
+      "fat": 8.0,
+      "carbs": 4.0,
+      "sodium": 496.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Bowtie Pasta",
+      "calories": 226.0,
+      "protein": 8.0,
+      "fat": 1.3,
+      "carbs": 44.0,
+      "sodium": 770.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Marinara Sauce",
+      "calories": 0,
+      "protein": 2.0,
+      "fat": 0.9,
+      "carbs": 10.0,
+      "sodium": 441.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Fried Chicken",
+      "calories": 313.0,
+      "protein": 35.0,
+      "fat": 18.0,
+      "carbs": 0,
+      "sodium": 96.0,
+      "serving": "2 pieces",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Collard Greens",
+      "calories": 57.0,
+      "protein": 2.0,
+      "fat": 2.6,
+      "carbs": 8.0,
+      "sodium": 473.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cornbread",
+      "calories": 275.0,
+      "protein": 5.0,
+      "fat": 8.0,
+      "carbs": 46.0,
+      "sodium": 538.0,
+      "serving": "5 x6 cut",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mac and Cheese",
+      "calories": 168.0,
+      "protein": 9.0,
+      "fat": 8.0,
+      "carbs": 14.0,
+      "sodium": 416.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Stewed Okra and Tomatoes",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 #12 scoop 0.33333333 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Texas Style BBQ Pork Ribs",
+      "calories": 324.0,
+      "protein": 43.0,
+      "fat": 14.0,
+      "carbs": 4.0,
+      "sodium": 1392.0,
+      "serving": "3 rib",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Candied Sweet Potatoes",
+      "calories": 88.0,
+      "protein": 2.0,
+      "fat": 3.6,
+      "carbs": 21.0,
+      "sodium": 32.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Red Beans",
+      "calories": 43.0,
+      "protein": 2.0,
+      "fat": 0.4,
+      "carbs": 8.0,
+      "sodium": 158.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Patty",
+      "calories": 1.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 581.0,
+      "serving": "1 single patty",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Black Bean Burger",
+      "calories": 186.0,
+      "protein": 20.0,
+      "fat": 9.0,
+      "carbs": 8.0,
+      "sodium": 519.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Bun",
+      "calories": 166.0,
+      "protein": 6.0,
+      "fat": 2.3,
+      "carbs": 30.0,
+      "sodium": 294.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Dog Buns",
+      "calories": 132.0,
+      "protein": 5.0,
+      "fat": 1.9,
+      "carbs": 24.0,
+      "sodium": 233.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Chicken Breast",
+      "calories": 118.0,
+      "protein": 23.0,
+      "fat": 2.4,
+      "carbs": 0,
+      "sodium": 299.0,
+      "serving": "1 breast",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken Tenders",
+      "calories": 305.0,
+      "protein": 26.0,
+      "fat": 13.0,
+      "carbs": 22.0,
+      "sodium": 612.0,
+      "serving": "3 tender",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Dog Chili",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "0.25 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hot Dog",
+      "calories": 232.0,
+      "protein": 7.0,
+      "fat": 19.0,
+      "carbs": 0,
+      "sodium": 744.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Shoestring Fries",
+      "calories": 198.0,
+      "protein": 2.0,
+      "fat": 12.0,
+      "carbs": 21.0,
+      "sodium": 2583.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Green Curry Chicken Thigh",
+      "calories": 179.0,
+      "protein": 18.0,
+      "fat": 11.0,
+      "carbs": 2.0,
+      "sodium": 188.0,
+      "serving": "0.8 pieces",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Vegetable Dumpling",
+      "calories": 184.0,
+      "protein": 1.0,
+      "fat": 14.0,
+      "carbs": 13.0,
+      "sodium": 254.0,
+      "serving": "2 dumpling",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chili Oil",
+      "calories": 411.0,
+      "protein": 0,
+      "fat": 40.0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 Tbsp",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Plant Chicken Firecracker Stir Fry",
+      "calories": 270.0,
+      "protein": 14.0,
+      "fat": 12.0,
+      "carbs": 25.0,
+      "sodium": 267.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Brown Rice",
+      "calories": 68.0,
+      "protein": 1.0,
+      "fat": 1.1,
+      "carbs": 13.0,
+      "sodium": 214.0,
+      "serving": "1 #12 scoop",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed White Rice",
+      "calories": 62.0,
+      "protein": 1.0,
+      "fat": 0.6,
+      "carbs": 13.0,
+      "sodium": 414.0,
+      "serving": "0.33 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sriracha Chili Sauce",
+      "calories": 26.0,
+      "protein": 1.0,
+      "fat": 0.3,
+      "carbs": 5.0,
+      "sodium": 602.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sweet Chili Sauce",
+      "calories": 48.0,
+      "protein": 1.0,
+      "fat": 0,
+      "carbs": 12.0,
+      "sodium": 130.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Gluten Free Soy Sauce",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Spicy Eggplant Stir Fry",
+      "calories": 41.0,
+      "protein": 4.0,
+      "fat": 3.5,
+      "carbs": 11.0,
+      "sodium": 435.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Rice Pilaf",
+      "calories": 105.0,
+      "protein": 2.0,
+      "fat": 3.1,
+      "carbs": 17.0,
+      "sodium": 117.0,
+      "serving": "1 #12 scoop 0.33333333 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Blackened Beef",
+      "calories": 196.0,
+      "protein": 16.0,
+      "fat": 14.0,
+      "carbs": 0,
+      "sodium": 420.0,
+      "serving": "3 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Mushrooms and Carrots",
+      "calories": 42.0,
+      "protein": 1.0,
+      "fat": 2.3,
+      "carbs": 5.0,
+      "sodium": 405.0,
+      "serving": "2.5 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Lentils",
+      "calories": 112.0,
+      "protein": 9.0,
+      "fat": 0.4,
+      "carbs": 19.0,
+      "sodium": 113.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Dijon Pork Chops",
+      "calories": 2.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 670.0,
+      "serving": "2 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Seasoned Rutabaga",
+      "calories": 35.0,
+      "protein": 0,
+      "fat": 3.9,
+      "carbs": 0,
+      "sodium": 144.0,
+      "serving": "1 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cheese Pizza",
+      "calories": 310.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 41.0,
+      "sodium": 815.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "calories": 348.0,
+      "protein": 15.0,
+      "fat": 14.0,
+      "carbs": 43.0,
+      "sodium": 929.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Spinach Tomato Pizza",
+      "calories": 183.0,
+      "protein": 7.0,
+      "fat": 4.9,
+      "carbs": 28.0,
+      "sodium": 491.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Philly Cheesesteak Thin Crust Pizza",
+      "calories": 40.0,
+      "protein": 3.0,
+      "fat": 3.1,
+      "carbs": 1.0,
+      "sodium": 71.0,
+      "serving": "1 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Vegetable Couscous",
+      "calories": 61.0,
+      "protein": 2.0,
+      "fat": 1.1,
+      "carbs": 11.0,
+      "sodium": 91.0,
+      "serving": "1 #16 scoop 0.25 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sauteed Green Beans and Garlic",
+      "calories": 45.0,
+      "protein": 1.0,
+      "fat": 2.7,
+      "carbs": 5.0,
+      "sodium": 245.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Broccoli, Peas and Carrots",
+      "calories": 55.0,
+      "protein": 2.0,
+      "fat": 0.1,
+      "carbs": 11.0,
+      "sodium": 135.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Aloo Chole",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Egg Salad",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Clam Chowder Soup",
+      "calories": 162.0,
+      "protein": 5.0,
+      "fat": 3.6,
+      "carbs": 27.0,
+      "sodium": 1170.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Creamy Potato Soup",
+      "calories": 170.0,
+      "protein": 6.0,
+      "fat": 6.0,
+      "carbs": 25.0,
+      "sodium": 80.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "calories": 119.0,
+      "protein": 8.0,
+      "fat": 8.0,
+      "carbs": 4.0,
+      "sodium": 496.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Garlic Mushrooms and Green Beans",
+      "calories": 75.0,
+      "protein": 2.0,
+      "fat": 6.0,
+      "carbs": 6.0,
+      "sodium": 245.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Meatballs",
+      "calories": 160.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 3.0,
+      "sodium": 611.0,
+      "serving": "3 meatball",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Dela Casa Sauce",
+      "calories": 74.0,
+      "protein": 1.0,
+      "fat": 6.0,
+      "carbs": 5.0,
+      "sodium": 394.0,
+      "serving": "3 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Marinara Sauce",
+      "calories": 0,
+      "protein": 2.0,
+      "fat": 0.9,
+      "carbs": 10.0,
+      "sodium": 441.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Spaghetti Noodles",
+      "calories": 232.0,
+      "protein": 8.0,
+      "fat": 3.1,
+      "carbs": 42.0,
+      "sodium": 608.0,
+      "serving": "1 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Oregano",
+      "calories": 75.0,
+      "protein": 3.0,
+      "fat": 1.2,
+      "carbs": 20.0,
+      "sodium": 7.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "calories": 90.0,
+      "protein": 3.0,
+      "fat": 4.9,
+      "carbs": 16.0,
+      "sodium": 9.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Corn and Red Peppers",
+      "calories": 75.0,
+      "protein": 2.0,
+      "fat": 3.4,
+      "carbs": 11.0,
+      "sodium": 276.0,
+      "serving": "2.5 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Green Beans",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Rosemary Roasted  Potatoes",
+      "calories": 140.0,
+      "protein": 2.0,
+      "fat": 4.7,
+      "carbs": 23.0,
+      "sodium": 238.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mushroom Gravy",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "2 oz ladle",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cajun Pork Chop",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 49.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Tuna Noodle Casserole",
+      "calories": 144.0,
+      "protein": 8.0,
+      "fat": 10.0,
+      "carbs": 15.0,
+      "sodium": 832.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Patty",
+      "calories": 1.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 581.0,
+      "serving": "1 single patty",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Hamburger Bun",
+      "calories": 166.0,
+      "protein": 6.0,
+      "fat": 2.3,
+      "carbs": 30.0,
+      "sodium": 294.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grilled Chicken Breast",
+      "calories": 118.0,
+      "protein": 23.0,
+      "fat": 2.4,
+      "carbs": 0,
+      "sodium": 299.0,
+      "serving": "1 breast",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sliced White Hoagie Roll",
+      "calories": 198.0,
+      "protein": 7.0,
+      "fat": 2.8,
+      "carbs": 36.0,
+      "sodium": 350.0,
+      "serving": "1 ea",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Jalapeno Grilled Cheese Sandwich",
+      "calories": 618.0,
+      "protein": 31.0,
+      "fat": 32.0,
+      "carbs": 73.0,
+      "sodium": 1513.0,
+      "serving": "1 sandwich",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Andouille Sausage",
+      "calories": 357.0,
+      "protein": 15.0,
+      "fat": 30.0,
+      "carbs": 3.0,
+      "sodium": 830.0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Twister Fries",
+      "calories": 198.0,
+      "protein": 2.0,
+      "fat": 12.0,
+      "carbs": 21.0,
+      "sodium": 2583.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Veggie Burger",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "sodium": 0,
+      "serving": "1 each",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Buttermilk Biscuit",
+      "calories": 190.0,
+      "protein": 3.0,
+      "fat": 6.0,
+      "carbs": 30.0,
+      "sodium": 529.0,
+      "serving": "2.75 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Scrambled Egg",
+      "calories": 119.0,
+      "protein": 8.0,
+      "fat": 9.0,
+      "carbs": 1.0,
+      "sodium": 446.0,
+      "serving": "0.5 cup portion",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pork Bacon",
+      "calories": 18.0,
+      "protein": 1.0,
+      "fat": 1.4,
+      "carbs": 0,
+      "sodium": 65.0,
+      "serving": "2 strip",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pork Sausage Patties",
+      "calories": 24.0,
+      "protein": 1.0,
+      "fat": 2.1,
+      "carbs": 0,
+      "sodium": 61.0,
+      "serving": "2 sausage",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Vegetable Cheddar Cheese Strata",
+      "calories": 126.0,
+      "protein": 8.0,
+      "fat": 8.0,
+      "carbs": 4.0,
+      "sodium": 210.0,
+      "serving": "4 x7 cut",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Country Gravy",
+      "calories": 60.0,
+      "protein": 0,
+      "fat": 4.9,
+      "carbs": 4.0,
+      "sodium": 331.0,
+      "serving": "2 ounces",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Oatmeal",
+      "calories": 8.0,
+      "protein": 0,
+      "fat": 0.2,
+      "carbs": 2.0,
+      "sodium": 14436.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Plant Chorizo Black Bean Scramble",
+      "calories": 136.0,
+      "protein": 8.0,
+      "fat": 10.0,
+      "carbs": 5.0,
+      "sodium": 388.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "French Toast",
+      "calories": 176.0,
+      "protein": 7.0,
+      "fat": 7.0,
+      "carbs": 21.0,
+      "sodium": 215.0,
+      "serving": "2.5 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Cauliflower",
+      "calories": 112.0,
+      "protein": 2.0,
+      "fat": 10.0,
+      "carbs": 4.0,
+      "sodium": 402.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Lemon Pepper Chicken",
+      "calories": 255.0,
+      "protein": 25.0,
+      "fat": 16.0,
+      "carbs": 0,
+      "sodium": 173.0,
+      "serving": "1 thigh",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Roasted Red Potatoes",
+      "calories": 42.0,
+      "protein": 1.0,
+      "fat": 0.1,
+      "carbs": 9.0,
+      "sodium": 172.0,
+      "serving": "0.5 cup portion",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pot Roast",
+      "calories": 337.0,
+      "protein": 33.0,
+      "fat": 22.0,
+      "carbs": 0,
+      "sodium": 53.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Broccolini, Peppers, Onions, Mushrooms",
+      "calories": 77.0,
+      "protein": 1.0,
+      "fat": 6.0,
+      "carbs": 5.0,
+      "sodium": 109.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Black Beans",
+      "calories": 92.0,
+      "protein": 4.0,
+      "fat": 2.7,
+      "carbs": 14.0,
+      "sodium": 635.0,
+      "serving": "0.33 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Buffalo Cauliflower Pizza",
+      "calories": 93.0,
+      "protein": 4.0,
+      "fat": 3.8,
+      "carbs": 11.0,
+      "sodium": 258.0,
+      "serving": "0.06 pizza",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Cheese Pizza",
+      "calories": 310.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 41.0,
+      "sodium": 815.0,
+      "serving": "0.12 round",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "calories": 348.0,
+      "protein": 15.0,
+      "fat": 14.0,
+      "carbs": 43.0,
+      "sodium": 929.0,
+      "serving": "1 slice",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Canadian Bacon Pizza",
+      "calories": 159.0,
+      "protein": 8.0,
+      "fat": 6.0,
+      "carbs": 19.0,
+      "sodium": 435.0,
+      "serving": "1 slices",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Sauteed Red Cabbage And Carrots",
+      "calories": 29.0,
+      "protein": 1.0,
+      "fat": 1.5,
+      "carbs": 4.0,
+      "sodium": 81.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Black Bean and Green Pepper Rice",
+      "calories": 61.0,
+      "protein": 2.0,
+      "fat": 0.2,
+      "carbs": 13.0,
+      "sodium": 55.0,
+      "serving": "1 #12 scoop 0.33333333 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Curried Tofu",
+      "calories": 154.0,
+      "protein": 5.0,
+      "fat": 13.0,
+      "carbs": 6.0,
+      "sodium": 91.0,
+      "serving": "0.5 cups",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Steamed Broccolini",
+      "calories": 13.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 2.0,
+      "sodium": 108.0,
+      "serving": "0.66 piece",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Macaroni Salad",
+      "calories": 188.0,
+      "protein": 4.0,
+      "fat": 10.0,
+      "carbs": 21.0,
+      "sodium": 174.0,
+      "serving": "3 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "calories": 38.0,
+      "protein": 2.0,
+      "fat": 0.9,
+      "carbs": 7.0,
+      "sodium": 340.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Mediterranean Vegetable Soup",
+      "calories": 37.0,
+      "protein": 2.0,
+      "fat": 0.8,
+      "carbs": 5.0,
+      "sodium": 215.0,
+      "serving": "8 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Ground Oregano",
+      "calories": 75.0,
+      "protein": 3.0,
+      "fat": 1.2,
+      "carbs": 20.0,
+      "sodium": 7.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Breadstick",
+      "calories": 12.0,
+      "protein": 0,
+      "fat": 0.5,
+      "carbs": 2.0,
+      "sodium": 22.0,
+      "serving": "1 breadstick",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Broccoli and Roasted Peppers",
+      "calories": 81.0,
+      "protein": 2.0,
+      "fat": 6.0,
+      "carbs": 6.0,
+      "sodium": 162.0,
+      "serving": "0.5 cup",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Grated Parmesan Cheese",
+      "calories": 119.0,
+      "protein": 8.0,
+      "fat": 8.0,
+      "carbs": 4.0,
+      "sodium": 496.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Alfredo Sauce",
+      "calories": 197.0,
+      "protein": 2.0,
+      "fat": 17.0,
+      "carbs": 4.0,
+      "sodium": 699.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Marinara Sauce",
+      "calories": 0,
+      "protein": 2.0,
+      "fat": 0.9,
+      "carbs": 10.0,
+      "sodium": 441.0,
+      "serving": "4 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "calories": 90.0,
+      "protein": 3.0,
+      "fat": 4.9,
+      "carbs": 16.0,
+      "sodium": 9.0,
+      "serving": "1 oz",
+      "dining_hall": "North Ave Dining Hall"
+    },
+    {
+      "name": "Ziti",
+      "calories": 493.0,
+      "protein": 18.0,
+      "fat": 2.9,
+      "carbs": 96.0,
+      "sodium": 3.0,
+      "serving": "1 cups",
+      "dining_hall": "North Ave Dining Hall"
+    }
+  ]
+}
