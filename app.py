@@ -49,21 +49,64 @@ meal_type = st.sidebar.selectbox(
     ["lunch", "dinner"]
 ).lower()
 
-# Find meals button
-find_button = st.sidebar.button("🔍 Show Top Items", type="primary", use_container_width=True)
+# Load available days button
+if st.sidebar.button("Load Available Days", use_container_width=True):
+    st.session_state.loading_days = True
 
-# Main content area
-if find_button:
-    with st.spinner("Fetching menus..."):
-        # Fetch menu data
-        all_items = []
+# Day selection (if days are loaded)
+selected_day = None
+if st.session_state.get('loading_days'):
+    with st.spinner("Loading available days..."):
+        # Fetch menu to get available days
+        temp_items = []
         for hall_id in selected_halls:
             items = optimizer.fetch_menu(hall_id, meal_type, verbose=False)
+            temp_items.extend(items)
+
+        if temp_items:
+            available_dates = sorted(set(item['date'] for item in temp_items if item.get('date')))
+            st.session_state.available_dates = available_dates
+            st.session_state.loading_days = False
+
+if 'available_dates' in st.session_state and st.session_state.available_dates:
+    # Format dates for display
+    date_options = {}
+    for date_str in st.session_state.available_dates:
+        try:
+            date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+            display_name = date_obj.strftime('%A, %B %d, %Y')
+            date_options[display_name] = date_str
+        except:
+            date_options[date_str] = date_str
+
+    selected_display = st.sidebar.selectbox(
+        "Select Day",
+        options=list(date_options.keys())
+    )
+    selected_day = date_options[selected_display]
+
+# Find meals button
+find_button = st.sidebar.button("🔍 Show Top Items", type="primary", use_container_width=True,
+                                disabled=(selected_day is None))
+
+# Main content area
+if find_button and selected_day:
+    with st.spinner("Fetching menus..."):
+        # Fetch menu data for selected day
+        all_items = []
+        for hall_id in selected_halls:
+            items = optimizer.fetch_menu(hall_id, meal_type, verbose=False, specific_day=selected_day)
             all_items.extend(items)
 
         if not all_items:
             st.error("❌ Could not fetch menu data. Please try again later.")
         else:
+            # Display selected day
+            try:
+                date_obj = datetime.strptime(selected_day, '%Y-%m-%d')
+                st.info(f"📅 Showing results for **{date_obj.strftime('%A, %B %d, %Y')}**")
+            except:
+                st.info(f"📅 Showing results for **{selected_day}**")
             # Filter items with meaningful protein (min 12g) and valid calories
             valid_items = [item for item in all_items
                           if item['calories'] > 0 and item['protein'] >= 12]
@@ -122,7 +165,10 @@ if find_button:
 
 else:
     # Welcome screen
-    st.info("👈 Select your dining hall and meal type, then click 'Show Top Items' to see the best protein sources!")
+    if selected_day:
+        st.info("👈 Click 'Show Top Items' to see the best protein sources!")
+    else:
+        st.info("👈 Select your dining hall and meal type, then click 'Load Available Days'!")
 
     # Show some stats
     col1, col2, col3 = st.columns(3)
@@ -131,7 +177,7 @@ else:
     with col2:
         st.metric("Meal Types", "2")
     with col3:
-        st.metric("Load Time", "~2s")
+        st.metric("Days per Week", "~7")
 
     st.markdown("---")
     st.markdown("""
@@ -139,7 +185,9 @@ else:
 
     1. **Select your dining hall** - Choose West Village, North Ave, or search both
     2. **Choose meal type** - Lunch or Dinner
-    3. **Click "Show Top Items"** - See the top 10 items by protein efficiency
+    3. **Load available days** - See what days are available this week
+    4. **Pick a day** - Choose which day of the week you want
+    5. **Show top items** - See the top 10 items by protein efficiency
 
     ### What is Protein Efficiency?
 
@@ -153,9 +201,9 @@ else:
     ### Features
 
     - 🚀 **Fast caching** - Menu data cached for the week
+    - 📅 **Daily menus** - Choose any day of the week
     - 📊 **Complete nutrition** - Full macros for every item
     - 📈 **Smart ranking** - Best protein/calorie ratios first
-    - 🔄 **Always current** - Fresh menu data
     """)
 
 # Footer

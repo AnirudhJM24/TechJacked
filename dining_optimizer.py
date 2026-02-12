@@ -82,18 +82,25 @@ class DiningHallOptimizer:
         with open(cache_file, 'w', encoding='utf-8') as f:
             json.dump(cache_data, f, indent=2)
 
-    def fetch_menu(self, dining_hall: str, meal_type: str, date: datetime = None, verbose: bool = True) -> List[Dict]:
-        """Fetch menu items from a dining hall for a specific meal (with caching)."""
+    def fetch_menu(self, dining_hall: str, meal_type: str, date: datetime = None, verbose: bool = True, specific_day: str = None) -> List[Dict]:
+        """Fetch menu items from a dining hall for a specific meal (with caching).
+
+        Args:
+            specific_day: Optional date string (YYYY-MM-DD) to filter for a specific day
+        """
         if date is None:
             date = datetime.now()
 
         # Check cache first
         cache_key = self._get_cache_key(dining_hall, meal_type, date)
-        cached_items = self._load_from_cache(cache_key)
-        if cached_items is not None:
+        cached_data = self._load_from_cache(cache_key)
+        if cached_data is not None:
             if verbose:
                 print(f"    ✓ Loaded from cache (week of {(date - timedelta(days=date.weekday())).strftime('%Y-%m-%d')})")
-            return cached_items
+            # Filter by specific day if requested
+            if specific_day:
+                return [item for item in cached_data if item.get('date') == specific_day]
+            return cached_data
 
         # Cache miss - fetch from API
         if verbose:
@@ -112,12 +119,12 @@ class DiningHallOptimizer:
             # Extract menu items from the response
             menu_items = []
             for day in data.get('days', []):
+                day_date = day.get('date', '')  # Get the date for this day
                 for item in day.get('menu_items', []):
                     food = item.get('food', {})
 
                     # Parse nutritional info
                     if food is not None:
-                        # rounded_nutrition_info is a dictionary, not a string
                         serving_size_info = food.get('serving_size_info', {})
                         nutrition = food.get('rounded_nutrition_info', {})
 
@@ -125,7 +132,6 @@ class DiningHallOptimizer:
                         amount = serving_size_info.get('serving_size_amount', '')
                         unit = serving_size_info.get('serving_size_unit', '')
 
-                        # If unit is pounds/lbs, divide by 4 since one serving is 0.25 lbs
                         if unit and 'lb' in unit.lower() and amount:
                             try:
                                 amount_float = float(amount)
@@ -143,16 +149,28 @@ class DiningHallOptimizer:
                             'carbs': nutrition.get('g_carbs', 0) or 0,
                             'sodium': nutrition.get('mg_sodium', 0) or 0,
                             'serving': serving_str,
-                            'dining_hall': self.dining_halls.get(dining_hall, dining_hall)
+                            'dining_hall': self.dining_halls.get(dining_hall, dining_hall),
+                            'date': day_date  # Add date to each item
                         })
 
             # Save to cache
             self._save_to_cache(cache_key, menu_items)
+
+            # Filter by specific day if requested
+            if specific_day:
+                return [item for item in menu_items if item.get('date') == specific_day]
             return menu_items
 
         except Exception as e:
             print(f"Error fetching menu from {dining_hall}: {e}")
             return []
+
+    def get_available_days(self, dining_hall: str, meal_type: str, date: datetime = None) -> List[str]:
+        """Get list of available days from cached or fetched menu data."""
+        items = self.fetch_menu(dining_hall, meal_type, date, verbose=False)
+        # Extract unique dates
+        dates = sorted(set(item['date'] for item in items if item.get('date')))
+        return dates
 
     def _parse_nutrition(self, nutrition_str: str) -> Dict[str, float]:
         """Parse the nutrition string into a dictionary."""
@@ -580,7 +598,7 @@ def main():
 
     print(f"\n🔍 Loading {meal_type} menus...")
 
-    # Fetch menus from selected dining halls
+    # Fetch all menus to get available days
     all_items = []
     for hall_id in selected_halls:
         print(f"  • {optimizer.dining_halls[hall_id]}:")
@@ -592,8 +610,42 @@ def main():
         print("\n❌ Could not fetch menu data. Please try again later.")
         return
 
+    # Get unique dates from the items
+    available_dates = sorted(set(item['date'] for item in all_items if item.get('date')))
+
+    if not available_dates:
+        print("\n❌ No date information available.")
+        return
+
+    # Let user select a day
+    print(f"\n📅 Available days:")
+    for idx, date_str in enumerate(available_dates, 1):
+        try:
+            date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+            day_name = date_obj.strftime('%A, %B %d')
+            print(f"{idx}. {day_name}")
+        except:
+            print(f"{idx}. {date_str}")
+
+    day_choice = input(f"\nSelect day (1-{len(available_dates)}): ").strip()
+    try:
+        day_idx = int(day_choice) - 1
+        if 0 <= day_idx < len(available_dates):
+            selected_date = available_dates[day_idx]
+        else:
+            print("Invalid selection. Using first day.")
+            selected_date = available_dates[0]
+    except ValueError:
+        print("Invalid input. Using first day.")
+        selected_date = available_dates[0]
+
+    # Filter items for selected day
+    day_items = [item for item in all_items if item.get('date') == selected_date]
+
+    print(f"\n📊 Showing results for {selected_date}")
+
     # Show top 10 items by protein efficiency
-    optimizer.show_top_items(all_items, top_n=10)
+    optimizer.show_top_items(day_items, top_n=10)
 
 
 if __name__ == "__main__":
