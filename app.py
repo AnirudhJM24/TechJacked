@@ -64,20 +64,26 @@ if find_button:
         if not all_items:
             st.error("❌ Could not fetch menu data. Please try again later.")
         else:
-            # Filter and calculate efficiency
+            # Filter items with meaningful protein (min 5g) and valid calories
             valid_items = [item for item in all_items
-                          if item['calories'] > 0 and item['protein'] > 0]
+                          if item['calories'] > 0 and item['protein'] >= 5]
 
+            # Create list with efficiency scores
+            items_with_efficiency = []
             for item in valid_items:
-                item['protein_efficiency'] = item['protein'] / item['calories']
+                protein_efficiency = item['protein'] / item['calories']
+                items_with_efficiency.append({
+                    **item,
+                    'protein_efficiency': protein_efficiency
+                })
 
-            # Sort by efficiency
-            valid_items.sort(key=lambda x: -x['protein_efficiency'])
+            # Sort by efficiency (highest first)
+            items_with_efficiency.sort(key=lambda x: -x['protein_efficiency'])
 
             # Display top 10
             st.success(f"✅ Top 10 items by protein efficiency!")
 
-            for idx, item in enumerate(valid_items[:10], 1):
+            for idx, item in enumerate(items_with_efficiency[:10], 1):
                 with st.expander(
                     f"**#{idx}**: {item['name']} - {item['protein_efficiency']:.3f}g/cal",
                     expanded=(idx <= 5)

@@ -513,22 +513,27 @@ class DiningHallOptimizer:
 
     def show_top_items(self, menu_items: List[Dict], top_n: int = 10):
         """Show top N items with best protein-to-calorie ratio."""
-        # Filter items with meaningful protein and calories
+        # Filter items with meaningful protein (min 5g) and valid calories
         valid_items = [item for item in menu_items
-                      if item['calories'] > 0 and item['protein'] > 0]
+                      if item['calories'] > 0 and item['protein'] >= 5]
 
-        # Calculate protein efficiency
+        # Create a list with efficiency scores (don't modify original items)
+        items_with_efficiency = []
         for item in valid_items:
-            item['protein_efficiency'] = item['protein'] / item['calories']
+            protein_efficiency = item['protein'] / item['calories']
+            items_with_efficiency.append({
+                **item,
+                'protein_efficiency': protein_efficiency
+            })
 
-        # Sort by protein efficiency
-        valid_items.sort(key=lambda x: -x['protein_efficiency'])
+        # Sort by protein efficiency (highest first)
+        items_with_efficiency.sort(key=lambda x: -x['protein_efficiency'])
 
         # Display top N
         print(f"\n✅ Top {top_n} items by protein efficiency:\n")
         print("=" * 90)
 
-        for idx, item in enumerate(valid_items[:top_n], 1):
+        for idx, item in enumerate(items_with_efficiency[:top_n], 1):
             print(f"\n{idx}. {item['name']}")
             print(f"   [{item['dining_hall']}] {item['serving']}")
             print(f"   Protein: {item['protein']:.1f}g | Calories: {item['calories']:.0f}")
